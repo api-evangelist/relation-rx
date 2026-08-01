@@ -1,7 +1,28 @@
 aid: relation-rx
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/relation-rx.png
 name: Relation Rx
-description: Relation Rx is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Relation Therapeutics (Relation Rx) is a London- and Boston-based end-to-end
+  biotechnology company developing transformational medicines with technology at
+  its core. The company combines single-cell multi-omics analysis of patient
+  tissue, functional genomics and disease-relevant assays, and machine learning
+  to decode disease biology, identify and validate therapeutic targets, and
+  advance its own pipeline of drug candidates. Relation is a DCVC portfolio
+  company and has announced research collaborations with partners including
+  Novartis. It operates as a therapeutics developer rather than a software or
+  API provider, and publishes no public developer API, developer portal, SDKs,
+  or machine-readable API specifications at this time.
 url: https://raw.githubusercontent.com/api-evangelist/relation-rx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Machine Learning
+- Genomics
+- Multi-omics
+- Therapeutics
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/relation-rx-domain-security.yml
+- type: Website
+  url: https://www.relationrx.com
+- type: PrivacyPolicy
+  url: https://www.relationrx.com/privacy-policy
+- type: Blog
+  url: https://www.relationrx.com/news
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
